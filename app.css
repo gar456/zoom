@@ -1,0 +1,98 @@
+.head{
+	background-color: blue;
+	font-size: medium;
+	font-color: green;
+	font-family: sans-serif;
+	font-style: normal;
+}
+.body{
+	background-color: blue;
+	font-style: oblique;
+	font-family: sans-serif;
+	font-size: medium;
+	font-color: white;
+	padding: auto;
+}
+.div{
+	background-color: white;
+	background-size: auto;
+	font-size: medium;
+	font-family: sans-serif;
+	font-color: yellow;
+	font-style: oblique;
+	font-display: auto;
+	padding: auto;
+}
+.button{
+	background-color: red;
+	font-style: oblique;
+	font-family: sans-serif;
+	font-size: medium;
+	font-display: auto;
+	padding: auto;
+}
+header{
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline-block;
+	margin-right: 20px;
+}
+nav a{
+	color: #fff;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #ffd700;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1{
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+input[type="create-meeting-btn"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+input[type="create-meeting-btn"]:hover{
+	background-color: #3e8e41;
+}
+footer{
+	background-color: #0074d9;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
